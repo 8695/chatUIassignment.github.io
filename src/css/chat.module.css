@@ -1,0 +1,143 @@
+/* class for root div */
+.headerSec{
+    background-color: rgb(158 220 255 / 34%);
+    min-height: 100vh;
+   
+}
+/* style for chatheading class */
+.chatHeading{
+    height: 80px ;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(201, 201, 188, 0.693);
+    margin:18px;
+}
+/* style for Introductin title */
+.Introduce{
+    color: #56565c;
+    font-size: 22px;
+    font-weight: 600;
+}
+/* style for para class */
+.para{
+    margin-top:8px;
+    color:#7b7878ac;
+    font-size: 14px; 
+}
+/* style Admin Icon */
+.adminIcon{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 18px;
+}
+/* style for common title Class */
+.title{
+    color:#7b7878ac;
+    font-size: 18px; 
+    margin: 10px 11px 0px 0px;  
+}
+/* style for Admin Image */
+.admin{
+    width: 35px;
+    height: 35px;
+    margin-top:2px;
+    
+}
+/* style for Chat Box */
+.chatBox{
+  height: 72vh; /* Set height for the chat box */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: flex;
+  flex-direction: column-reverse; 
+}
+/* style for input Box */
+.inputBox {
+    display: flex;
+    align-items: flex-end;
+    border-radius: 4px;
+    padding: 4px;
+    padding: 10px;
+    
+}
+
+.inputBox input {
+    flex: 1; /* This will make the input take up remaining space */
+    margin-right: 10px; /* Add margin between input and button */
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid black;
+}
+input{
+    border-radius: 25px;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.message{
+    margin:10px;
+}
+.userContainer{
+    display: flex;
+    flex-direction: row;
+}
+.FirstChar{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    /* background-color: #f97ca0; */
+}
+.Char{
+    font-size: 22px;
+    /* margin: -8px 5px 10px 15px; */
+    color: #e7e0e2;
+    padding: 12px 16px;
+    font-weight: 700;  
+}
+.user{
+    font-size: 20px;
+    margin: 14px 10px 0px 16px;
+    font-weight: 600;
+    color: #151616b3;
+}
+.time{
+    font-size: 15px;
+    margin: 18px 10px 0px 3px;
+    color: grey;
+}
+.messContainer{
+    margin: 3px 58px 9px 64px;
+    border-radius: 0px 10px 10px 10px;
+    font-size: 22px;
+
+}
+.text{
+    border-radius: 0px 10px 10px 10px;
+    padding: 10px 30px;
+    background-color: whitesmoke;
+}
+.emoji{
+    position: relative;
+    right: 5%;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.btn{
+    font-size: 15px;
+    padding: 10px;
+    background-color: #82c7d552;
+    border: none;
+    border-radius: 10px;
+    color: forestgreen;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+/* this is class when emoji card is show  */
+.emojiPicker {
+    position: fixed;
+    right: 2%;
+    bottom: 12%;
+  }
+  

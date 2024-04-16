@@ -1,0 +1,98 @@
+.header{
+    background-color: #fffffffe;
+}
+.iconSec{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 20px;
+    height: auto;
+
+}
+.icon{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color:#f97ca0;;
+}
+.text{
+    font-size: 22px;
+    color: #e7e0e2;
+    padding: 22px 18px;
+    font-weight: 700;
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin-left: 48px;
+    margin-top: -16px;
+   
+}
+.name{
+    margin: 15px 0px 0px -8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232020ac;
+}
+.title{
+    margin: 0px -8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #7b7878ac;
+
+
+}
+
+
+.conversation{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 50px 0px 0px 20px;
+}
+.Conver{
+    font-size:25px;
+    font-weight: 500;
+    color:rgb(65, 61, 61)
+}
+.list{
+    margin: 31px 0px 0px 20px;
+}
+.buttonsContainer{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+}
+.buttonsContainerP{
+    height: 70px;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    background-color: rgba(11, 90, 201, 0.958);
+}
+
+.buttonsContainer .office {
+    color: rgb(157, 151, 151);
+}
+
+.hash{
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 12px;
+    width: 62px;
+    font-size: 20px;
+    font-weight: 900;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.office{
+    margin-top: 24px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.imageIcon{
+    width: 30px;    
+    height: 30px;
+    color:  #e7e0e2;;
+}
