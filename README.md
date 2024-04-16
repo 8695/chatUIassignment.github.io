@@ -1,3 +1,11 @@
+# host on vercel 
+host link:(https://chat-u-iassignment-github-io.vercel.app)
+
+# step to run the project 
+1. clone the project
+2. install react
+3. run the command npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
